@@ -1,0 +1,143 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background:  hsl(172, 67%, 45%);
+	font-family: 'Space Mono', monospace;
+
+}
+
+
+.calculator
+{
+	width: 700px;
+	height: 65vh;
+	background: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	border-radius: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.menu-show
+{
+	width: 65%;
+	position: relative;
+	background-color: hsl(183, 100%, 15%);
+	height: 50vh;
+	border-radius: 40px;
+	margin:20px 10px ;
+	display: flex;
+	justify-items: center;
+	justify-content: left ;
+	gap: 50px;
+	flex-direction: column;
+	padding: 5px;
+
+
+
+
+}
+
+.menu-options
+{
+	display: flex;
+	flex-flow: column wrap ;
+	width: 50%;
+	gap: 20px;
+	padding: 10px;
+
+}
+.menu-options input[type=text]
+{
+	width: 100%;
+	border: none;
+	height: 50px;
+	background-color:hsl(185, 41%, 84%) ;
+
+}
+
+.total-people-class input[type=text]
+{
+	width: 100%;
+
+}
+
+.btn-list
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.btn
+{
+	width: 30%;
+	background-color:  hsl(183, 100%, 15%);
+	height: 50px;
+	border:none ;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+
+}
+
+.menu-text .total-price
+{
+	
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	padding: 10px 5px;
+
+}
+
+.menu-text .title
+{
+	color: white;
+	font-size: 25px;
+}
+
+.menu-text .desc
+{
+	color: hsl(185, 41%, 84%);
+}
+.total-price
+{
+	font-size: 20px;
+	color:hsl(172, 67%, 45%) ;
+}
+
+.menu-show .btn-reset
+{
+	width: 90%;
+	color: white;
+	background-color:hsl(172, 67%, 45%);
+	border: none;
+	padding: 10px;
+	font-size: 1.3rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-left: 15px;
+	
+	
+}
+
+.btn-active
+{
+
+background-color: hsl(186, 14%, 43%);
+}
